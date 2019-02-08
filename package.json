@@ -1,12 +1,8 @@
 {
-    "name": "kuzhelov",
-    "version": "1.1.0",
-    "description": "Scaffolding package for the monorepo",
-    "main": "index.js",
+    "private": true,
     "scripts": {
         "dist": "lerna publish"
     },
-    "author": "kuzhelov",
     "license": "ISC",
     "dependencies": {
         "lerna": "^3.11.0"
